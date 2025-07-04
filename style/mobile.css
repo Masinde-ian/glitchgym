@@ -148,13 +148,19 @@
 
     .aboutus img {
         width: 100%;
-        max-width: 150px;
+        /* max-width: 150px; */
         height: auto;
         object-fit: cover;
     }
 
+    .aboutus p{
+        font-size: 0.7rem;
+        line-height: 1.4;
+    }
+
     .aboutus div {
         padding: 10px;
+        flex-direction: column;
     }
 
     .aboutus div p {
