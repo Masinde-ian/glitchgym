@@ -1,0 +1,175 @@
+@media (min-width: 601px) and (max-width: 1024px) {
+    header {
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        color: var(--dark-text-color);
+        position: fixed;
+        z-index: 1000;
+        width: 100%;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header ul {
+        display: flex;
+        justify-content: flex-end;
+        width: auto;
+    }
+
+    header a {
+        color: var(--text-color);
+        text-decoration: none;
+        padding: 10px 15px;
+        font-weight: bold;
+    }
+
+    header a:hover {
+        color: var(--primary-color);
+        text-decoration: underline;
+        text-underline-offset: 5px;
+    }
+
+    header a.active {
+        color: var(--primary-color);
+        text-decoration: underline;
+        text-underline-offset: 5px;
+    }
+
+    header #hamburger-icon, header #close-icon {
+        display: none;
+    }
+
+    header li {
+        list-style: none;
+    }
+
+    .hero {
+        height: 90vh;
+    }
+
+    .hero-bg {
+        background: url('../images/about1.jpg') center/cover no-repeat;
+        filter: blur(8px);
+    }
+
+    .hero::after {
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    .hero-content h2 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content .typewriter {
+        font-size: 1.3rem;
+    }
+
+    .hero-content p {
+        font-size: 1.1rem;
+    }
+
+    .aboutus {
+        padding: 30px;
+    }
+
+    .aboutus h2 {
+        font-size: 2rem;
+    }
+
+    .aboutus p {
+        font-size: 1.2rem;
+    }
+
+    .aboutus img {
+        width: 250px;
+    }
+
+    .aboutus div {
+        padding: 15px;
+    }
+
+    .aboutus div p {
+        font-size: 1.1rem;
+    }
+
+    #trainers-section, #services-section, #excercises, #pricing, #reviews, #contact {
+        padding: 30px 0;
+    }
+
+    #trainers-section h2, #services-section h2, #excercises h2, #pricing h2, #reviews h2, #contact h2 {
+        font-size: 2rem;
+    }
+
+    #trainers-section .trainer-card, #services-section .service-card, #excercises .excercise-card, #pricing .pricing-card {
+        width: 300px;
+        margin: 15px;
+        padding: 15px;
+    }
+
+    #trainers-section .trainer-card img, #services-section .service-card img, #excercises .excercise-card img {
+        height: 90px;
+    }
+
+    #trainers-section .trainer-card h3, #services-section .service-card h3, #excercises .excercise-card h3, #pricing .pricing-card h3 {
+        font-size: 1.4rem;
+    }
+
+    #trainers-section .trainer-card h4 {
+        font-size: 1.2rem;
+    }
+
+    #trainers-section .trainer-card p, #services-section .service-card p, #excercises .excercise-card p, #pricing .pricing-card p {
+        font-size: 1.1rem;
+    }
+
+    #excercises .excercise-card {
+        height: 300px;
+    }
+
+    #pricing .pricing-card {
+        height: 180px;
+    }
+
+    #reviews blockquote {
+        font-size: 1.2rem;
+        padding: 15px;
+    }
+
+    #reviews blockquote footer {
+        font-size: 1.1rem;
+    }
+
+    #reviews a {
+        margin: 15px;
+        padding: 10px 20px;
+    }
+
+    #contact form {
+        max-width: 500px;
+    }
+
+    #contact form input, #contact form textarea {
+        font-size: 1.1rem;
+        padding: 10px;
+    }
+
+    #contact form button {
+        padding: 10px 20px;
+    }
+
+    footer {
+        padding: 20px 0;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+
+    footer ul li {
+        margin: 0 8px;
+    }
+}

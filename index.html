@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/animations.css">
+        <link rel="stylesheet" href="style/mobile.css" media="(max-width: 768px)">
+        <link rel="stylesheet" href="style/desktop.css" media="(min-width: 769px)">
+        <link rel="stylesheet" href="style/tablet.css" media="(min-width: 481px) and (max-width: 768px)">
+    </head>
+    <body>
+        <header>
+            <h1 class="logo">Glitch<span>Gym</span></h1>
+            <button aria-label="Open Menu" id="hamburger-icon" style="width: fit-content;" onclick="showNav()">
+                <img src="images/hamburger-2-svgrepo-com (1).svg" alt="" style="width: 30px; height: 30px;">
+            </button>
+            <button aria-label="Open Menu" id="close-icon" style="width: fit-content;" onclick="hideNav()">
+                <img src="images/close-svgrepo-com.svg" alt="" style="width: 30px; height: 30px;">
+            </button>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services-section">Services</a></li>
+                    <li><a href="#reviews">Review</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li class="join"><a href="#">Join Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="home" class="hero">
+                <div class="hero-bg"></div>
+                <div class="hero-content">
+                    <h2>Welcome to <span>GlitchGym</span></h2>
+                    <span class="typewriter"></span>
+                    <div>
+                        <p>Transform Your Body. Empower Your Life</p>
+                        <p>Join a community that pushes you to be your best</p>
+                        <p>Your journey to fitness starts here!</p>
+                    </div>  
+                </div>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn">Learn More</a>
+                    <a href="#" class="btn">Join Now</a>
+                </div>  
+            </section>
+
+            <section id="about">
+                <div class="aboutus">
+                    <h2>About Us</h2>
+                    <p>We are dedicated to helping you achieve your fitness goals.</p>
+                    <div>
+                        <img src="images/about1.jpg" alt="A view of our gym">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint nam tenetur incidunt nobis perspiciatis deleniti temporibus aut cumque quae voluptates ullam odit ut officia, aspernatur dicta numquam mollitia fugiat quaerat!</p>
+                    </div>
+                    <p>Whether you're a beginner or a seasoned athlete, we have something for everyone.</p>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolor eaque asperiores commodi earum, a quam. Eveniet consectetur labore illo dolor vero dicta, eligendi aliquam. Ipsam debitis mollitia quasi dolores.</p>
+                        <img src="images/about2.jpg" alt="A view of our gym">
+                    </div>
+                    <p>Our team of experts is here to guide you every step of the way.</p>
+                </div>
+                <div id="trainers-section">
+                    <h2>Meet our Trainers</h2>
+                    <div class="trainers">
+                        <div class="trainer-card">
+                            <img src="images/Author.webp" alt="John Doe - Personal Trainer">
+                            <div>
+                                <h3>John Doe</h3>
+                                <h4>Personal Trainer</h4>
+                                <p>Specializes in strength training and nutrition.</p>
+                            </div>
+                        </div>
+                        <div class="trainer-card">
+                            <img src="images/Author.webp" alt="John Doe - Personal Trainer">
+                            <div>
+                                <h3>John Doe</h3>
+                                <h4>Personal Trainer</h4>
+                                <p>Specializes in strength training and nutrition.</p>
+                            </div>
+                        </div>
+                        <div class="trainer-card">
+                            <img src="images/Author.webp" alt="John Doe - Personal Trainer">
+                            <div>
+                                <h3>John Doe</h3>
+                                <h4>Personal Trainer</h4>
+                                <p>Specializes in strength training and nutrition.</p>
+                            </div>
+                        </div>
+                        <div class="trainer-card">
+                            <img src="images/Author.webp" alt="John Doe - Personal Trainer">
+                            <div>
+                                <h3>John Doe</h3>
+                                <h4>Personal Trainer</h4>
+                                <p>Specializes in strength training and nutrition.</p>
+                            </div>
+                        </div>
+                        <div class="trainer-card">
+                            <img src="images/Author.webp" alt="John Doe - Personal Trainer">
+                            <div>
+                                <h3>John Doe</h3>
+                                <h4>Personal Trainer</h4>
+                                <p>Specializes in strength training and nutrition.</p>
+                            </div>
+                        </div>
+                        <div class="trainer-card">
+                            <img src="images/Author.webp" alt="John Doe - Personal Trainer">
+                            <div>
+                                <h3>John Doe</h3>
+                                <h4>Personal Trainer</h4>
+                                <p>Specializes in strength training and nutrition.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>   
+            </section>
+
+            <section id="services-section">
+                <div class="services">
+                    <h2>Our Services</h2>
+                    <ul>
+                        <li class="service-card">
+                            <img src="images/trainer.svg" alt="">
+                            <div>
+                                <h3>Personal Training</h3>
+                                <p>One-on-one training sessions tailored to your needs.</p>
+                            </div>
+                        </li>
+                        <li class="service-card">
+                            <img src="images/groupclass.svg" alt="">
+                            <div>
+                                <h3>Group Classes</h3>
+                                <p>Join our group classes for a fun and motivating workout.</p>
+                            </div>                          
+                        </li>
+                        <li class="service-card">
+                            <img src="images/diet.svg" alt="">
+                            <div>
+                                <h3>Nutrition Coaching</h3>
+                                <p>Get personalized nutrition plans to complement your fitness journey.</p>
+                            </div>                           
+                        </li>
+                        <li class="service-card">
+                            <img src="images/online.svg" alt="">
+                            <div>
+                                <h3>Online Training</h3>
+                                <p>Train with us from the comfort of your home with our online programs.</p>
+                            </div>                           
+                        </li>
+                        <li class="service-card">
+                            <img src="images/wellness.svg" alt="">
+                            <div>
+                                <h3>Wellness Programs</h3>
+                                <p>Holistic wellness programs to enhance your overall health.</p>
+                            </div>
+                        </li>
+                    </ul>                    
+                </div>
+                <div id="excercises">
+                    <h2>Exercises</h2>
+                    <ul>
+                        <li class="excercise-card">
+                            <h3>Cardio Workouts</h3> 
+                            <div>
+                                <img src="images/cardio.jpg" alt="">
+                                <p>Boost your heart health with our cardio routines.</p>
+                            </div>
+                        </li>
+                        <li class="excercise-card">
+                            <h3>Strength Training </h3>
+                            <div>
+                                <img src="images/herobg.jpg" alt="">
+                                <p>Build muscle and strength with our weight training programs.</p>
+                            </div>
+                        </li>
+                        <li class="excercise-card">
+                            <h3>Flexibility Exercises</h3>
+                            <div>
+                                <img src="images/stretch.jpg" alt="">
+                                <p>Improve your flexibility and prevent injuries with our stretching routines.</p>
+                            </div>
+                        </li>
+                        <li class="excercise-card">
+                            <h3>Core Workouts</h3>
+                            <div>
+                                <img src="images/abs.jpg" alt="">
+                                <p>Strengthen your core with our targeted exercises.</p>
+                            </div>
+                        </li>
+                        <li class="excercise-card">
+                            <h3>High-Intensity Interval Training (HIIT)</h3>
+                            <div>
+                                <img src="images/plank.jpg" alt="">
+                                <p>Get fit fast with our HIIT workouts that combine cardio and strength training.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div id="pricing">
+                    <h2>Pricing</h2>
+                    <div class="pricing-cards">
+                        <div class="pricing-card">
+                            <h3>Basic Membership</h3>
+                            <p class="price">$29<span>/month</span></p>
+                            <ul>
+                                <li>Access to gym facilities</li>
+                                <li>Open gym hours</li>
+                                <li>Locker room access</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-card">
+                            <h3>Premium Membership</h3>
+                            <p class="price">$49<span>/month</span></p>
+                            <ul>
+                                <li>All Basic features</li>
+                                <li>Unlimited group classes</li>
+                                <li>Sauna & wellness area</li>
+                                <li>Guest passes</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-card">
+                            <h3>Personal Training</h3>
+                            <p class="price">$50<span>/session</span></p>
+                            <ul>
+                                <li>One-on-one coaching</li>
+                                <li>Custom workout plan</li>
+                                <li>Progress tracking</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-card">
+                            <h3>Group Classes</h3>
+                            <p class="price">$15<span>/class</span></p>
+                            <ul>
+                                <li>Yoga, HIIT, Zumba & more</li>
+                                <li>Certified instructors</li>
+                                <li>Fun & motivating environment</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="reviews">
+                <h2>What Our Clients Say</h2>
+                <div class="reviews">
+                    <blockquote>
+                        "GlitchGym has transformed my life! The trainers are amazing and the atmosphere is so motivating."
+                        <footer>- Sarah K.</footer>
+                    </blockquote>
+                    <blockquote>
+                        "I love the group classes and the variety of equipment. Highly recommend to anyone serious about fitness."
+                        <footer>- Mike D.</footer>
+                    </blockquote>
+                    <blockquote>
+                        "The nutrition coaching helped me reach my goals faster. Friendly staff and great facilities!"
+                        <footer>- Priya S.</footer>
+                    </blockquote>
+                </div>
+                <a href="">View more reviews</a>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+            </section> 
+        </main>
+        <footer>
+            <p>&copy; 2025 GlitchGym. All rights reserved.</p>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#reviews">Review</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <p>Follow us on 
+                <a href="https://www.facebook.com" target="_blank">Facebook</a>, 
+                <a href="https://www.instagram.com" target="_blank">Instagram</a>, 
+                <a href="https://www.twitter.com" target="_blank">Twitter</a>
+            </p>
+        </footer>
+
+        <script>
+            var typed = new Typed('.typewriter', {
+                strings: ["Lift. Sweat. Repeat.", "Unleash Your Potential.", "Fitness That Inspires.", "Welcome to Glitch Gym"],
+                typeSpeed: 60,
+                backSpeed: 40,
+                backDelay: 2000,
+                loop: true
+            });
+        </script>
+        <script src="script.js" async defer></script>
+    </body>
+</html>

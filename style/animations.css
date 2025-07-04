@@ -1,0 +1,80 @@
+/* Animations for the website */
+
+/* Fade-in animation keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply fade-in to hero section */
+.hero-content,
+.hero-buttons {
+  animation: fadeIn 1.2s ease both;
+}
+
+/* Fade-in for about section */
+.aboutus,
+.aboutus img,
+.aboutus h2,
+.aboutus p {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 0.3s;
+}
+.aboutus img { animation-delay: 0.4s; }
+.aboutus h2 { animation-delay: 0.5s; }
+.aboutus p { animation-delay: 0.6s; }
+
+/* Fade-in for cards (trainers, services, exercises, pricing) */
+.trainer-card,
+.service-card,
+.excercise-card,
+.pricing-card {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 0.3s;
+}
+
+/* Fade-in for reviews */
+#reviews blockquote {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 0.4s;
+}
+
+/* Fade-in for contact form */
+#contact form {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 0.4s;
+}
+
+/* Fade-in for footer */
+footer {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 0.5s;
+}
+
+/* Show elements when page loads */
+body.loaded .aboutus,
+body.loaded .aboutus img,
+body.loaded .aboutus h2,
+body.loaded .aboutus p,
+body.loaded .trainer-card,
+body.loaded .service-card,
+body.loaded .excercise-card,
+body.loaded .pricing-card,
+body.loaded #reviews blockquote,
+body.loaded #contact form,
+body.loaded footer {
+  opacity: 1;
+}
+
+/* ...existing code... */
