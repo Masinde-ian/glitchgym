@@ -444,12 +444,12 @@ header ul{
     font-size: 18px;
     color: var(--text-color);
     margin: 10px 0;
-    text-align: left;
+    text-align: center;
 }
 #pricing .pricing-card ul {
     list-style: none;
     padding: 0;
-    text-align: left;
+    text-align: center;
 }
 
 /* reviews section */

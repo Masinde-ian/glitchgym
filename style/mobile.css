@@ -177,7 +177,7 @@
 
     #trainers-section .trainer-card, #services-section .service-card, #excercises .excercise-card, #pricing .pricing-card {
         width: 100%;
-        margin: 10px 0;
+        margin: 10px 5px;
         padding: 15px;
     }
 
@@ -203,6 +203,10 @@
 
     #pricing .pricing-card {
         height: auto;
+    }
+
+    #pricing .pricing-card p, #pricing .pricing-card ul {
+        text-align: left;
     }
 
     #reviews blockquote {
